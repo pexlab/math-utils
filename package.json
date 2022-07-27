@@ -1,0 +1,19 @@
+{
+  "name": "@pexlab/math-utils",
+  "version": "0.0.1",
+  "description": "A handy collection of various mathematical functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pexlab/math-utils.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pexlab/math-utils/issues"
+  },
+  "homepage": "https://github.com/pexlab/math-utils#readme"
+}

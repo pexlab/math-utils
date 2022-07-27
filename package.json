@@ -1,19 +1,28 @@
 {
-  "name": "@pexlab/math-utils",
-  "version": "0.0.1",
-  "description": "A handy collection of various mathematical functions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pexlab/math-utils.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pexlab/math-utils/issues"
-  },
-  "homepage": "https://github.com/pexlab/math-utils#readme"
+    "name": "@pexlab/math-utils",
+    "version": "0.0.1",
+    "description": "A handy collection of various mathematical functions",
+    "module": "dist/index.esm.js",
+    "files": [
+        "dist",
+        "package.json"
+    ],
+    "private": false,
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pexlab/math-utils.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pexlab/math-utils/issues"
+    },
+    "homepage": "https://github.com/pexlab/math-utils#readme",
+    "devDependencies": {
+        "rollup": "^2.77.2",
+        "rollup-plugin-typescript2": "^0.32.1",
+        "typescript": "^4.7.4"
+    }
 }
